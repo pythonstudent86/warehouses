@@ -1,0 +1,21 @@
+.werhouse-list-section {
+  display: flex;
+  margin: 0 auto;
+  width: 640px;
+  height: 100%;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.werhouse-list {
+  display: block;
+  list-style: none;
+  padding: 0;
+  width: 640px;
+
+  &-item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}

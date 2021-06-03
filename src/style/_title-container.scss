@@ -1,0 +1,23 @@
+.werhouse-title-section {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background: #fc0; /* Цвет фона */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
+  padding: 24px;
+  margin: 0 auto;
+  height: 70px;
+  width: 640px;
+  align-items: center;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.werhouse-title {
+  font-family: cursive;
+  margin: 0;
+  display: flex;
+  width: fit-content;
+}

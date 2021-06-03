@@ -1,0 +1,38 @@
+.werhouse-list-item {
+  display: flex;
+  background-color: #7fffd4;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+
+  &-q {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    height: 50px;
+    width: 50px;
+    background-color: #8a2be2;
+    border-radius: 50%;
+    color: #fff;
+  }
+
+  .item-name {
+    width: 400px;
+  }
+
+  .item-alert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    border-radius: 50%;
+    color: tomato;
+    margin-left: 50px;
+  }
+
+  .material-icons{
+    pointer-events: none;
+  }
+}
